@@ -58,4 +58,8 @@ header h1 {
     color: black;
 }
 
-
+#noResults {
+    color: red;
+    background-color: black;
+    padding: 3px;
+}

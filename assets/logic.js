@@ -31,6 +31,7 @@ function renderResults(NasaData) {
     if (NasaData.length === 0) {
         var noResults = document.createElement('h2');
         noResults.textContent = "Sorry, nothing was found";
+        noResults.setAttribute('id', 'noResults');
         results.append(noResults);
     }
 
